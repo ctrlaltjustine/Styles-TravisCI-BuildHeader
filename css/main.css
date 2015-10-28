@@ -1,0 +1,73 @@
+html, body {
+  background-color: white;
+  color: #666666;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.3em;
+  margin: 20px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.build-header, .build-status, .build-info, .branch, .commit, .compare, .author {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.build-header {
+  border: solid 1px #EFF0EC;
+  border-left: solid 9px #DB423C;
+  border-radius: 2px;
+  padding: 12px;
+}
+
+.build-status {
+  color: #DB423C;
+  font-size: inherit;
+  margin-bottom: 1em;
+}
+
+.branch {
+  color: #DB423C;
+  font-weight: 600;
+}
+
+.commit-message {
+  font-family: monospace;
+  line-height: 1.4em;
+  font-size: .85em;
+  margin-bottom: 1.4em;
+}
+
+.commit, .total-build, {
+  line-height: inherit;
+  margin-bottom: .4em;
+}
+
+.compare {
+  line-height: inherit;
+  margin-bottom: 1.4em;
+}
+
+.gravatar {
+  height: 18px;
+  width: 18px;
+  border-radius: 200px;
+  background-color: black;
+  display: inline-block;
+}
+
+.author {
+  display: inline-block;
+  line-height: 1.5em;
+}
+
+.build-info {
+  font-size: inherit;
+}
+
+.finished {
+  margin-top: 1.4em;
+}
