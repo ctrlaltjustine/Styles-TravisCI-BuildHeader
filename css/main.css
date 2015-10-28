@@ -11,7 +11,7 @@ p {
   margin: 0;
 }
 
-.build-header, .build-status, .build-info, .branch, .commit, .compare, .author {
+.build-header, .build-status, .build-info, .branch, .commit, .compare, {
   font-size: inherit;
   line-height: 1.5em;
 }
@@ -59,13 +59,15 @@ p {
   height: 18px;
   width: 18px;
   border-radius: 200px;
-  background-color: black;
+  background-color: #cdcdcd;
   display: inline-block;
 }
 
 .author {
   display: inline-block;
-  line-height: 1.5em;
+  font-size: inherit;
+  line-height: 1em;
+
 }
 
 .build-info {
@@ -89,6 +91,7 @@ button {
   width: 26px;
   padding: 0;
   display: block;
+  margin-bottom: .5em;
 }
 
 button:hover {
