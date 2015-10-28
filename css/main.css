@@ -13,7 +13,7 @@ p {
 
 .build-header, .build-status, .build-info, .branch, .commit, .compare, .author {
   font-size: inherit;
-  line-height: inherit;
+  line-height: 1.5em;
 }
 
 .build-header {
@@ -21,6 +21,10 @@ p {
   border-left: solid 9px #DB423C;
   border-radius: 2px;
   padding: 12px;
+}
+
+.commit-info {
+  padding-left: 20px;
 }
 
 .build-status {
@@ -70,4 +74,25 @@ p {
 
 .finished {
   margin-top: 1.4em;
+}
+
+.right-buttons {
+  padding-left: 45px;
+}
+
+button {
+  background: white;
+  border: solid 1px #DADDDD;
+  color: #666666;
+  border-radius: 200px;
+  height: 26px;
+  width: 26px;
+  padding: 0;
+  display: block;
+}
+
+button:hover {
+  color: #5EA5A3;
+  border-color: #5EA5A3;
+  background: white;
 }
